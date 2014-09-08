@@ -37,7 +37,7 @@ bool GameScene::init() {
     enemise = CCArray::createWithCapacity(10);
     enemise->retain();
 
-    hp = 3;
+    hp = 10;
     money = 100;
     CCString* str = CCString::createWithFormat("HP: %d\nMoney: %d", hp,money);
     label = CCLabelTTF::create(str->getCString(), "Microsoft Yahei", 30);
